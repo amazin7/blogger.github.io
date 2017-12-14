@@ -1,0 +1,35 @@
+.main-outer{
+   border:none !important;
+   box-shadow:none !important;
+}
+.post-outer{
+   background-color:#fff;
+   border:1px solid #e5e5e5;
+   margin-bottom:20px;
+}
+.date-outer {
+   border-right:none !important;
+   padding-right:initial;
+}
+.article-list{
+   border:none;
+   margin-bottom:0;
+   padding:10px;
+   box-sizing:border-box;
+}
+@media screen and (max-width: 768px){
+.post-outer{
+   margin-bottom:10px;
+   box-shadow:none !important;
+}
+.post-timestamp {
+   display:block !important;
+   font-size:10px !important;
+}
+}
+</style></b:if>
+  <b:if cond='data:blog.pageType == &quot;static_page&quot;'>
+<style>
+.kousin{
+   display:none !important;
+}
